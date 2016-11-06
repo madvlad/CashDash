@@ -22,7 +22,7 @@ Clocks remove 10 seconds from your time.
 
 ##Disclaimer
 
-Remain aware of your surroundings when playing CashDash. Any injury resulting in play is the responsibility of the player. Use of this application implies acknowledgement of this fact.
+Remain aware of your surroundings when playing CashDash. Any injury resulting of play is the responsibility of the player and player alone. Use of this application implies acknowledgement of this fact.
 
 
 Nov 6 2016
