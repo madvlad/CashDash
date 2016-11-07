@@ -19,7 +19,8 @@ public class CollectibleItem : MonoBehaviour {
         if (!AlreadyTriggered)
         {
             source.PlayOneShot(CollectionSound);
-            // TODO :: Add score and time to GameManager
+            GameManager.instance.AddPoints(ScoreBonus);
+            GameManager.instance.ChangeTime(TimeBonusInSeconds);
             gameObject.GetComponent<MeshRenderer>().enabled = false;
             gameObject.GetComponent<BoxCollider>().enabled = false;
             Invoke("RemoveCollectible", 1.0f);
