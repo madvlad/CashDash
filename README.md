@@ -31,6 +31,7 @@ Remain aware of your surroundings when playing CashDash. Any injury resulting of
  * AnnaBloom - click-plonk.wav
  * Brad Wesson - collectcoin.wav
  * Simon Rue - Misslyckad-bana-v3.wav
-
+ * Mickleness - game-win.mp3
+ * All Music - Kevin MacLeod (incompetech.com)
 
 Nov 6 2016

@@ -9,10 +9,22 @@ public class GameManager : MonoBehaviour {
     public bool IsAbleToStart = false;
     public bool JustFinished = false;
     public int CoinToShowNext = 0;
+    public AudioClip[] SongList;
+    public AudioClip VictoryClip;
+
+    private AudioSource backgroundMusic;
     
     void Start()
     {
         instance = this;
+        backgroundMusic = gameObject.AddComponent<AudioSource>();
+    }
+
+    public void StartDash()
+    {
+        var songIndex = Random.Range(0, SongList.Length);
+        backgroundMusic.clip = SongList[songIndex];
+        backgroundMusic.Play();
     }
 
     public void Reset()
@@ -36,7 +48,9 @@ public class GameManager : MonoBehaviour {
 
     public void Finish()
     {
+        backgroundMusic.Stop();
         JustFinished = true;
+        backgroundMusic.PlayOneShot(VictoryClip);
     }
 
     public void AddPoints(int Points)

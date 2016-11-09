@@ -1566,6 +1566,11 @@ MonoBehaviour:
   IsAbleToStart: 0
   JustFinished: 0
   CoinToShowNext: 0
+  SongList:
+  - {fileID: 8300000, guid: cef746135a3a93d41a75ffedfebd7313, type: 3}
+  - {fileID: 8300000, guid: 1c694cb1342d2624da6f087ada51478b, type: 3}
+  - {fileID: 8300000, guid: 674557b21076a3442a3ee6443aa3b821, type: 3}
+  VictoryClip: {fileID: 8300000, guid: 2fc450d11b4915b4e95dcdd1a36cdf6c, type: 3}
 --- !u!4 &1552539463
 Transform:
   m_ObjectHideFlags: 0
