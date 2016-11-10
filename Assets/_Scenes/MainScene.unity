@@ -386,6 +386,7 @@ GameObject:
   - 222: {fileID: 147918469}
   - 114: {fileID: 147918468}
   - 114: {fileID: 147918467}
+  - 65: {fileID: 147918470}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -486,6 +487,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 147918465}
+--- !u!65 &147918470
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 147918465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 157.67642, y: -26.866821, z: 1}
+  m_Center: {x: 0.30969238, y: 0.30963135, z: 0}
 --- !u!1 &157115589
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +510,7 @@ GameObject:
   - 222: {fileID: 157115593}
   - 114: {fileID: 157115592}
   - 114: {fileID: 157115591}
+  - 65: {fileID: 157115594}
   m_Layer: 5
   m_Name: SaveButton
   m_TagString: Untagged
@@ -597,6 +611,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 157115589}
+--- !u!65 &157115594
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 157115589}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 157.67642, y: -26.866821, z: 1}
+  m_Center: {x: 0.30969238, y: 0.30963135, z: 0}
 --- !u!1001 &253664547
 Prefab:
   m_ObjectHideFlags: 0
@@ -1039,6 +1065,7 @@ GameObject:
   - 222: {fileID: 1208606729}
   - 114: {fileID: 1208606728}
   - 114: {fileID: 1208606727}
+  - 65: {fileID: 1208606730}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -1139,6 +1166,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1208606725}
+--- !u!65 &1208606730
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1208606725}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 157.67642, y: -26.866821, z: 1}
+  m_Center: {x: 0.30969238, y: 0.30963135, z: 0}
 --- !u!1 &1269639494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,6 +1399,7 @@ GameObject:
   - 222: {fileID: 1392400164}
   - 114: {fileID: 1392400163}
   - 114: {fileID: 1392400162}
+  - 65: {fileID: 1392400165}
   m_Layer: 5
   m_Name: LoadButton
   m_TagString: Untagged
@@ -1460,6 +1500,60 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1392400160}
+--- !u!65 &1392400165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1392400160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 157.67642, y: -26.866821, z: 1}
+  m_Center: {x: 0.30969238, y: 0.30963135, z: 0}
+--- !u!1001 &1423074876
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000013535415816, guid: b2db04283121ca74495c2ee000fb4243, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013535415816, guid: b2db04283121ca74495c2ee000fb4243, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013535415816, guid: b2db04283121ca74495c2ee000fb4243, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013535415816, guid: b2db04283121ca74495c2ee000fb4243, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013535415816, guid: b2db04283121ca74495c2ee000fb4243, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013535415816, guid: b2db04283121ca74495c2ee000fb4243, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013535415816, guid: b2db04283121ca74495c2ee000fb4243, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013535415816, guid: b2db04283121ca74495c2ee000fb4243, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b2db04283121ca74495c2ee000fb4243, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1466345325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1543,6 +1637,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1552539463}
   - 114: {fileID: 1552539462}
+  - 114: {fileID: 1552539464}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -1584,6 +1679,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!114 &1552539464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1552539461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1a2a33ffcac354298137001635a001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxGazeDistance: 15
+  RaycastLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967291
+  SetStabilizationPlane: 1
+  LerpStabilizationPlanePowerCloser: 4
+  LerpStabilizationPlanePowerFarther: 7
+  UseBuiltInGazeStabilization: 1
 --- !u!1 &1708118820
 GameObject:
   m_ObjectHideFlags: 0
@@ -1595,6 +1709,7 @@ GameObject:
   - 222: {fileID: 1708118824}
   - 114: {fileID: 1708118823}
   - 114: {fileID: 1708118822}
+  - 65: {fileID: 1708118825}
   m_Layer: 5
   m_Name: EditButton
   m_TagString: Untagged
@@ -1695,6 +1810,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1708118820}
+--- !u!65 &1708118825
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1708118820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 157.67642, y: -26.866821, z: 1}
+  m_Center: {x: 0.30969238, y: 0.30963135, z: 0}
 --- !u!1 &1752104319
 GameObject:
   m_ObjectHideFlags: 0
