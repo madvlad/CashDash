@@ -20,6 +20,15 @@ Skulls add 5 seconds to your time when they are collected and they should be avo
 
 Clocks remove 10 seconds from your time.
 
+##Setup
+
+To start this project you must have the following installed:
+ * Unity for Hololens (5.4)
+ * Visual Studio with Update 3
+ * HoloToolkit from [Microsoft's github](https://github.com/Microsoft/HoloToolkit-Unity)
+
+Load the project with Unity then build with HoloToolkit's context menu. In visual studio build in *Release* mode with *x86* set as the CPU configuration.
+
 ##Disclaimer
 
 Remain aware of your surroundings when playing CashDash. Any injury resulting of play is the responsibility of the player and player alone. Use of this application implies acknowledgement of this fact.
