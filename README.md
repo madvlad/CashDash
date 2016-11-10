@@ -1,4 +1,4 @@
-#CashDash
+#CashDash ![Hololens Logo](http://i.imgur.com/1OZiVYt.png)
 
 A proof of concept and demo application for Microsoft Hololens
 
